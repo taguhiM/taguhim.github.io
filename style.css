@@ -5,9 +5,10 @@
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
-  color: #222;
+  color: #1f1f1f;
   background: #fff;
   line-height: 1.7;
+  font-size: 16px;
 }
 
 a {
@@ -20,13 +21,12 @@ a:hover {
 }
 
 .container {
-  width: min(1100px, 90%);
+  width: min(1000px, 90%);
   margin: 0 auto;
 }
 
 .site-header {
-  background: #fff;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .nav-container {
@@ -35,8 +35,8 @@ a:hover {
 
 nav a {
   margin-right: 2rem;
-  font-size: 1.05rem;
-  color: #444;
+  font-size: 0.95rem;
+  color: #555;
 }
 
 nav a:hover,
@@ -46,64 +46,52 @@ nav a.active {
 
 .about-layout {
   display: grid;
-  grid-template-columns: 260px 1fr;
-  gap: 3.5rem;
+  grid-template-columns: 240px 1fr;
+  gap: 3rem;
   padding: 3rem 0;
-  align-items: start;
 }
 
 .profile-photo {
-  width: 220px;
-  height: 220px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   border-radius: 50%;
-  display: block;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.2rem;
 }
 
 .contact-links p {
-  margin: 0.6rem 0;
-  font-size: 1rem;
-}
-
-.contact-links a {
-  color: #000;
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
 }
 
 .about-main h1 {
-  font-size: 3rem;
+  font-size: 2.6rem;
   font-weight: 600;
-  line-height: 1.2;
-  margin: 0 0 0.5rem 0;
+  margin: 0 0 0.4rem 0;
 }
 
 .subtitle {
-  font-size: 1.35rem;
-  color: #555;
-  margin-top: 0;
-  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 1.8rem;
 }
 
 .about-main p {
-  font-size: 1.08rem;
-  margin-bottom: 1.4rem;
-}
-
-.about-main a {
-  color: #000;
+  font-size: 1rem;
+  margin-bottom: 1.3rem;
 }
 
 .section-heading {
-  margin-top: 3rem;
-  margin-bottom: 1rem;
+  margin-top: 2.5rem;
+  margin-bottom: 0.8rem;
 }
 
 .section-heading h2 {
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  margin: 0;
+  color: #555;
 }
 
 .recent-activities ul {
@@ -112,13 +100,13 @@ nav a.active {
 }
 
 .recent-activities li {
-  margin-bottom: 1rem;
-  font-size: 1.05rem;
+  margin-bottom: 0.9rem;
+  font-size: 0.98rem;
 }
 
 .publications h2 {
-  font-size: 2rem;
-  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  margin-bottom: 1.8rem;
 }
 
 .year-group {
@@ -126,26 +114,16 @@ nav a.active {
 }
 
 .year-group h3 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 600;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid #e5e5e5;
   padding-bottom: 0.3rem;
-  border-bottom: 1px solid #ddd;
-}
-
-.year-group ul {
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
 }
 
 .year-group li {
-  margin-bottom: 1.2rem;
-  line-height: 1.6;
-}
-
-.publications a {
-  color: #000;
+  margin-bottom: 1rem;
+  font-size: 0.98rem;
 }
 
 @media (max-width: 800px) {
@@ -154,20 +132,16 @@ nav a.active {
     gap: 2rem;
   }
 
-  .about-sidebar {
-    text-align: left;
-  }
-
   .profile-photo {
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
   }
 
   .about-main h1 {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
 
   .subtitle {
-    font-size: 1.15rem;
+    font-size: 1.1rem;
   }
 }
