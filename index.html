@@ -1,62 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tatevik Mesropyan</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Taguhi Mesropyan</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <h1>Tatevik Mesropyan</h1>
-      <nav>
-        <a href="index.html" class="active">About Me</a>
-        <a href="publications.html">Publications</a>
-        <a href="cv.html">CV</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+<header class="site-header">
+    <div class="container nav-container">
+        <nav>
+            <a href="index.html" class="active">About</a>
+            <a href="publications.html">Publications</a>
+            <a href="cv.html">CV</a>
+        </nav>
     </div>
-  </header>
+</header>
 
-  <main class="container">
-    <section class="hero">
-      <h2>About Me</h2>
-      <p>
-        I am [write 2 to 4 lines introducing yourself here].
-        For example: your current role, research interests, academic background,
-        and the topics you work on.
-      </p>
+<main class="container">
+    <section class="about-layout">
+        <aside class="about-sidebar">
+            <img src="assets/images/profile.jpg" alt="Portrait of Taguhi Mesropyan" class="profile-photo"/>
+
+            <div class="contact-links">
+                <p><a href="mailto:your.email@example.com">Email</a></p>
+                <p><a href="https://github.com/taguhi-mesropyan" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </p>
+                <p><a href="https://www.linkedin.com/in/your-linkedin/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                </p>
+                <p><a href="#" target="_blank" rel="noopener noreferrer">Google Scholar</a></p>
+            </div>
+        </aside>
+
+        <section class="about-main">
+            <h1>Taguhi Mesropyan</h1>
+            <p class="subtitle">Machine Learning Researcher</p>
+
+            <p>
+                I am a PhD researcher at <a href="https://indelab.org/people/" target="_blank"
+                                            rel="noopener noreferrer">INDElab</a>, University of Amsterdam, supervised
+                by <a href="https://vdegeler.com/" target="_blank" rel="noopener noreferrer">Victoria Degeler</a> and <a
+                    href="https://pgroth.com/" target="_blank" rel="noopener noreferrer">Paul Groth </a>.
+            </p>
+
+            <p>
+                I research how
+                complex sensor-rich systems evolve over time, and how we can detect and manage
+                drift in such environments, with a focus on Digital Twins. My work aims to develop a systematic
+                framework for understanding, detecting, and adapting to drift across different components of these
+                systems.
+            </p>
+
+            <p>
+                I hold an MSc in Mathematical Engineering from Politecnico di Milano and a BSc in Mathematics from
+                Yerevan State University. I have worked as a data scientist and AI engineer in both industry and
+                R&D. </p>
+
+            <section class="recent-activities">
+                <div class="section-heading">
+                    <h2>Recent Activities</h2>
+                </div>
+
+                <ul>
+                    <li>[Month Year] Brief description of a recent activity.</li>
+                    <li>[Month Year] Brief description of another activity.</li>
+                    <li>[Month Year] A paper, talk, project, internship, or collaboration.</li>
+                    <li>[Month Year] Anything current that you want visitors to notice.</li>
+                </ul>
+            </section>
+        </section>
     </section>
-
-    <section class="card">
-      <h3>Self Introduction</h3>
-      <p>
-        Write a slightly fuller introduction here. This can include your current position,
-        your academic background, your main research interests, and the type of work you enjoy.
-      </p>
-      <p>
-        Example topics to mention:
-        machine learning, federated learning, domain adaptation, human computer interaction,
-        or any other areas you want visitors to associate with your profile.
-      </p>
-    </section>
-
-    <section class="card">
-      <h3>Recent Activities</h3>
-      <ul>
-        <li>[Recent activity 1: paper, talk, project, internship, course, etc.]</li>
-        <li>[Recent activity 2]</li>
-        <li>[Recent activity 3]</li>
-        <li>[Recent activity 4]</li>
-      </ul>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>© 2026 Tatevik Mesropyan</p>
-    </div>
-  </footer>
+</main>
 </body>
 </html>
