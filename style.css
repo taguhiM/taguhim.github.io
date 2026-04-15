@@ -25,8 +25,13 @@ a:hover {
   margin: 0 auto;
 }
 
+/*.site-header {*/
+/*  border-bottom: 1px solid #e5e5e5;*/
+/*}*/
+
 .site-header {
-  border-bottom: 1px solid #e5e5e5;
+  background: #f5f8ff;
+  border-bottom: 1px solid #e0e6f0;
 }
 
 .nav-container {
